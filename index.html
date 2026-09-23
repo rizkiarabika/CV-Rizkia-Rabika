@@ -1,162 +1,456 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>CV Rizkia Putri Handayani Rabika</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: #333;
+    margin: 0;
+    padding: 40px 20px;
+    line-height: 1.6;
+}
+
+.cv-container {
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    padding: 45px 55px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #222;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 32px;
+    color: #222;
+}
+
+.subtitle {
+    font-size: 16px;
+    margin-top: 8px;
+    color: #555;
+}
+
+.contact {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.contact a {
+    color: #333;
+    text-decoration: none;
+}
+
+.profile-photo {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #222;
+}
+
+section {
+    margin-top: 30px;
+}
+
+section h2 {
+    font-size: 20px;
+    color: #222;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 7px;
+    margin-bottom: 18px;
+}
+
+h3 {
+    font-size: 16px;
+    margin-bottom: 3px;
+    color: #222;
+}
+
+.date {
+    color: #666;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill {
+    background-color: #eeeeee;
+    color: #222;
+    padding: 7px 13px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #777;
+            font-size: 12px;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 650px) {
+
+            body {
+                padding: 15px;
+            }
+
+            .cv-container {
+                padding: 30px 25px;
+            }
+
+            .header {
+                flex-direction: column-reverse;
+                text-align: center;
+            }
+
+            .header h1 {
+                font-size: 25px;
+            }
+
+            .profile-photo {
+                width: 120px;
+                height: 120px;
+            }
+        }
+    </style>
 </head>
 
 <body>
 
-   <table width="100%">
-    <tr>
-        <td>
+<div class="cv-container">
+
+    <!-- HEADER -->
+    <div class="header">
+
+        <div class="header-text">
+
             <h1>Rizkia Putri Handayani Rabika</h1>
 
-            <p>
+            <div class="subtitle">
                 Mahasiswa Sistem Informasi | MC | Broadcaster | Voice Over
-            </p>
+            </div>
 
-            <p>
+            <div class="contact">
+
                 Email:
                 <a href="mailto:rizkiarabika27@gmail.com">
                     rizkiarabika27@gmail.com
                 </a>
-                |
-                Instagram: @rizkiarabika
-                |
+
+                &nbsp; | &nbsp;
+
+                Instagram:
+                <a href="https://instagram.com/rizkiarabika" target="_blank">
+                    @rizkiarabika
+                </a>
+
+                &nbsp; | &nbsp;
+
                 LinkedIn:
-                <a href="https://www.linkedin.com/in/rizkia-rabika-574a02375/" target="_blank">
+                <a href="https://www.linkedin.com/in/rizkia-rabika-574a02375/"
+                    target="_blank">
                     Rizkia Rabika
                 </a>
-            </p>
-        </td>
 
-         <td align="right">
-            <img src="rizkia.jpg" alt="Foto Profil Rizkia" width="130">
-        </td>
-    </tr>
-</table>
+            </div>
 
-<hr>
+        </div>
 
-    <h2>Profil</h2>
-    <p>
-        Lulusan Pondok Modern Darussalam Gontor dan mahasiswa aktif Program Studi Sistem Informasi Telkom 
-University Jakarta yang memiliki pengalaman mengajar selama satu tahun pada jenjang SMP dan SMA. Terbiasa 
-menyusun materi pembelajaran, mengelola kelas, serta membimbing peserta didik dalam lingkungan pendidikan 
-berasrama. Memiliki kemampuan komunikasi yang baik dalam Bahasa Indonesia, Bahasa Arab, dan Bahasa Inggris 
-serta berkomitmen untuk menciptakan proses belajar yang efektif, disiplin, dan menyenangkan. Berpengalaman 
-luas sebagai Master of Ceremony (MC) dalam berbagai acara formal pondok, mengelola operasional penyiaran 
-informasi, dan melakukan pengaturan sound engineering. Memiliki komitmen tinggi terhadap presisi waktu dan 
-kedisiplinan dalam segala hal. 
-    </p>
+        <img src="rizkia.jpg"
+             alt="Foto Profil Rizkia"
+             class="profile-photo">
 
-    <h2>Pendidikan</h2>
+    </div>
 
-    <h3>Telkom University Jakarta</h3>
-    <p>2025 - Sekarang</p>
-    <ul>
-        <li>S1 Sistem Informasi</li>
-        <li>IPK: 3.78</li>
-    </ul>
 
-    <h3>Pondok Modern Darussalam Gontor Putri Kampus 1</h3>
-    <p>2018 - 2024</p>
-    <ul>
-        <li>Jurusan IPA</li>
-        <li>Rata-rata nilai akhir: 91.17</li>
-    </ul>
+    <!-- PROFIL -->
+    <section>
 
-    <h2>Pengalaman Mengajar</h2>
+        <h2>Profil</h2>
 
-    <h3>Guru KMI - Pondok Modern Darussalam Gontor Putri Kampus 6</h3>
-    <p>April 2024 - April 2025</p>
-    <ul>
-        <li>Mengajar mata pelajaran tingkat SMP dan SMA (Matematika, Tafsir, Keputrian, Hadits, Kimia, Tarikh Adab) 
-dengan penyampaian materi yang jelas sehingga siswa mencapai target pembelajaran dengan tepat. </li>
-        <li>Menyusun perangkat pembelajaran sesuai kurikulum KMI.</li>
-        <li>Mengelola kelas dengan pendekatan disiplin, komunikatif, dan berpusat pada peserta didik. </li>
-        <li>Berkolaborasi dengan guru lain dalam kegiatan akademik dan pembinaan karakter santri.</li>
-    </ul>
+        <p>
+            Lulusan Pondok Modern Darussalam Gontor dan mahasiswa aktif Program Studi
+            Sistem Informasi Telkom University Jakarta yang memiliki pengalaman mengajar
+            selama satu tahun pada jenjang SMP dan SMA. Terbiasa menyusun materi
+            pembelajaran, mengelola kelas, serta membimbing peserta didik dalam lingkungan
+            pendidikan berasrama. Memiliki kemampuan komunikasi yang baik dalam Bahasa
+            Indonesia, Bahasa Arab, dan Bahasa Inggris serta berkomitmen untuk menciptakan
+            proses belajar yang efektif, disiplin, dan menyenangkan. Berpengalaman luas
+            sebagai Master of Ceremony (MC) dalam berbagai acara formal pondok,
+            mengelola operasional penyiaran informasi, dan melakukan pengaturan sound
+            engineering. Memiliki komitmen tinggi terhadap presisi waktu dan kedisiplinan
+            dalam segala hal.
+        </p>
 
-    <h2>Pengalaman MC dan Protokoler</h2>
+    </section>
 
-    <h3>Master of Ceremony - Apel Tahunan Khutbatul-'Arsy</h3>
-    <p>PMDG Kampus 6 | Juli 2025</p>
-    <ul>
-        <li>Memandu jalannya upacara dinas formal yang dihadiri oleh seluruh jajaran pimpinan pondok, guru KMI, dan 
-800 santriwati dengan menggunakan protokol tata upacara resmi. Menggunakan teknik vokal dan intonasi tegas 
-(formal) dalam bahasa Arab </li>
-    </ul>
 
-    <h3>MC Semiformal - Islamic Wear Exhibition & Panggung Gembira</h3>
-    <p>Juli 2024</p>
-    <ul>
-        <li>Bertindak sebagai pembawa acara utama pada pagelaran seni dan pameran busana muslimah berskala besar di 
-lingkungan pondok dengan jumlah 3500+ audiens. Saya juga mengatur crowd control, mencairkan suasana, serta 
-menjaga ketepatan waktu agar transisi antar-segmen acara berjalan mulus. </li>
-    </ul>
+    <!-- PENDIDIKAN -->
+    <section>
 
-    <h3>Master of Ceremony - Language Competition</h3>
-    <p>Mei 2023</p>
-    <ul>
-        <li>Memandu perlombaan akademik tingkat pondok dengan membawakan pengantar dan transisi acara secara 
-bilingual (Bahasa Arab dan Bahasa Inggris). Berkoordinasi dengan dewan juri terkait pembacaan tata tertib lomba 
-dan pengumuman pemenang secara terstruktur. </li>
-    </ul>
+        <h2>Pendidikan</h2>
 
-    <h3>Moderator - Pembekalan Intensif Siswi Akhir KMI</h3>
-    <p>Maret 2024</p>
-    <ul>
-        <li>Memimpin dan memoderatori sesi pembekalan intensif mengenai strategi peningkatan bahasa asing yang dihadiri 
-oleh 2473 peserta. Mengatur alur tanya jawab antara pemateri dan audiens, menyusun ringkasan jalannya 
-diskusi, serta memastikan sesi berjalan kondusif. </li>
-    </ul>
+        <h3>Telkom University Jakarta</h3>
+        <p class="date">2025 - Sekarang</p>
 
-    <h3>Master of Ceremony - PKKMB Prodi Sistem Informasi TUJ</h3>
-    <p>September 2026</p>
-    <ul>
-        <li> Memandu acara semi formal pada kegiatan Pengenalan Kehidupan Kampus Mahasiswa Baru program studi 
-Sistem Informasi Telkom University Jakarta 2026. Saya mengatur jalannya acara, mencairkan suasana serta 
-menjaga ketepatan waktu agar transisi antar-acara berjalan dengan lancar. </li>
-    </ul>
+        <ul>
+            <li>S1 Sistem Informasi</li>
+            <li>IPK: 3.78</li>
+        </ul>
 
-    <h2>Pengalaman Organisasi</h2>
 
-    <h3>Language Advisory Council (LAC)</h3>
-    <p>April 2024 - April 2025</p>
-    <ul>
-        <li>Mengawasi, mengarahkan, dan mendisiplinkan penggunaan Bahasa Arab dan Bahasa Inggris dalam aktivitas 
-sehari-hari seluruh santriwati. Mengoordinasikan berbagai program kerja kebahasaan, pelatihan public speaking, 
-dan simulasi debat publik. </li>
-    </ul>
+        <h3>Pondok Modern Darussalam Gontor Putri Kampus 1</h3>
+        <p class="date">2018 - 2024</p>
 
-    <h3>Ketua Bagian Penerangan (OPPM)</h3>
-    <p>Juli 2022 - Desember 2023</p>
-    <ul>
-        <li>Memimpin dan mengelola operasional pusat penyiaran informasi harian dan pengumuman resmi di lingkungan 
-pondok. Bertanggung jawab penuh atas instalasi, uji coba audio (soundcheck), dan pengoperasian sistem audio 
-pada setiap upacara dan acara resmi pondok. Serta Menyusun naskah berita, instruksi formal, dan teks 
-pengumuman penting dalam Bahasa Arab dan Bahasa Inggris. </li>
-    </ul>
+        <ul>
+            <li>Jurusan IPA</li>
+            <li>Rata-rata nilai akhir: 91.17</li>
+        </ul>
 
-    <h2>Kemampuan</h2>
-    <ul>
-        <li>Komunikasi</li>
-        <li>Public Speaking</li>
-        <li>Master of Ceremony (MC), Voice Over, Broadcaster</li>
-        <li>Protokoler Acara</li>
-        <li>Sound System Operation</li>
-        <li>Bahasa Arab & Inggris</li>
-        <li>SAP</li>
-        <li>Microsoft & Google Tools</li>
-    </ul>
+    </section>
 
-    <h2>Pelatihan & Sertifikasi</h2>
-    <ul>
-        <li>Kursus Mahir Tingkat Dasar (KMD) Pramuka</li>
-        <li>Islamic Wear Exhibition</li>
-        <li>Safe From Harm Kwarnas</li>
-    </ul>
+
+    <!-- PENGALAMAN MENGAJAR -->
+    <section>
+
+        <h2>Pengalaman Mengajar</h2>
+
+        <h3>
+            Guru KMI - Pondok Modern Darussalam Gontor Putri Kampus 6
+        </h3>
+
+        <p class="date">April 2024 - April 2025</p>
+
+        <ul>
+
+            <li>
+                Mengajar mata pelajaran tingkat SMP dan SMA (Matematika, Tafsir,
+                Keputrian, Hadits, Kimia, Tarikh Adab) dengan penyampaian materi
+                yang jelas sehingga siswa mencapai target pembelajaran dengan tepat.
+            </li>
+
+            <li>
+                Menyusun perangkat pembelajaran sesuai kurikulum KMI.
+            </li>
+
+            <li>
+                Mengelola kelas dengan pendekatan disiplin, komunikatif, dan
+                berpusat pada peserta didik.
+            </li>
+
+            <li>
+                Berkolaborasi dengan guru lain dalam kegiatan akademik dan
+                pembinaan karakter santri.
+            </li>
+
+        </ul>
+
+    </section>
+
+
+    <!-- MC -->
+    <section>
+
+        <h2>Pengalaman MC dan Protokoler</h2>
+
+
+        <h3>
+            Master of Ceremony - Apel Tahunan Khutbatul-'Arsy
+        </h3>
+
+        <p class="date">
+            PMDG Kampus 6 | Juli 2025
+        </p>
+
+        <ul>
+            <li>
+                Memandu jalannya upacara dinas formal yang dihadiri oleh seluruh
+                jajaran pimpinan pondok, guru KMI, dan 800 santriwati dengan
+                menggunakan protokol tata upacara resmi. Menggunakan teknik vokal
+                dan intonasi tegas (formal) dalam bahasa Arab.
+            </li>
+        </ul>
+
+
+        <h3>
+            MC Semiformal - Islamic Wear Exhibition & Panggung Gembira
+        </h3>
+
+        <p class="date">Juli 2024</p>
+
+        <ul>
+            <li>
+                Bertindak sebagai pembawa acara utama pada pagelaran seni dan
+                pameran busana muslimah berskala besar di lingkungan pondok dengan
+                jumlah 3500+ audiens. Saya juga mengatur crowd control, mencairkan
+                suasana, serta menjaga ketepatan waktu agar transisi antar-segmen
+                acara berjalan mulus.
+            </li>
+        </ul>
+
+
+        <h3>
+            Master of Ceremony - Language Competition
+        </h3>
+
+        <p class="date">Mei 2023</p>
+
+        <ul>
+            <li>
+                Memandu perlombaan akademik tingkat pondok dengan membawakan
+                pengantar dan transisi acara secara bilingual (Bahasa Arab dan
+                Bahasa Inggris). Berkoordinasi dengan dewan juri terkait pembacaan
+                tata tertib lomba dan pengumuman pemenang secara terstruktur.
+            </li>
+        </ul>
+
+
+        <h3>
+            Moderator - Pembekalan Intensif Siswi Akhir KMI
+        </h3>
+
+        <p class="date">Maret 2024</p>
+
+        <ul>
+            <li>
+                Memimpin dan memoderatori sesi pembekalan intensif mengenai strategi
+                peningkatan bahasa asing yang dihadiri oleh 2473 peserta. Mengatur
+                alur tanya jawab antara pemateri dan audiens, menyusun ringkasan
+                jalannya diskusi, serta memastikan sesi berjalan kondusif.
+            </li>
+        </ul>
+
+
+        <h3>
+            Master of Ceremony - PKKMB Prodi Sistem Informasi TUJ
+        </h3>
+
+        <p class="date">September 2026</p>
+
+        <ul>
+            <li>
+                Memandu acara semi formal pada kegiatan Pengenalan Kehidupan Kampus
+                Mahasiswa Baru program studi Sistem Informasi Telkom University
+                Jakarta 2026. Saya mengatur jalannya acara, mencairkan suasana serta
+                menjaga ketepatan waktu agar transisi antar-acara berjalan dengan lancar.
+            </li>
+        </ul>
+
+    </section>
+
+
+    <!-- ORGANISASI -->
+    <section>
+
+        <h2>Pengalaman Organisasi</h2>
+
+
+        <h3>Language Advisory Council (LAC)</h3>
+
+        <p class="date">April 2024 - April 2025</p>
+
+        <ul>
+            <li>
+                Mengawasi, mengarahkan, dan mendisiplinkan penggunaan Bahasa Arab
+                dan Bahasa Inggris dalam aktivitas sehari-hari seluruh santriwati.
+                Mengoordinasikan berbagai program kerja kebahasaan, pelatihan public
+                speaking, dan simulasi debat publik.
+            </li>
+        </ul>
+
+
+        <h3>Ketua Bagian Penerangan (OPPM)</h3>
+
+        <p class="date">Juli 2022 - Desember 2023</p>
+
+        <ul>
+            <li>
+                Memimpin dan mengelola operasional pusat penyiaran informasi harian
+                dan pengumuman resmi di lingkungan pondok. Bertanggung jawab penuh
+                atas instalasi, uji coba audio (soundcheck), dan pengoperasian sistem
+                audio pada setiap upacara dan acara resmi pondok. Serta menyusun
+                naskah berita, instruksi formal, dan teks pengumuman penting dalam
+                Bahasa Arab dan Bahasa Inggris.
+            </li>
+        </ul>
+
+    </section>
+
+
+    <!-- KEMAMPUAN -->
+    <section>
+
+        <h2>Kemampuan</h2>
+
+        <div class="skills">
+
+            <span class="skill">Komunikasi</span>
+            <span class="skill">Public Speaking</span>
+            <span class="skill">MC</span>
+            <span class="skill">Voice Over</span>
+            <span class="skill">Broadcaster</span>
+            <span class="skill">Protokoler Acara</span>
+            <span class="skill">Sound System Operation</span>
+            <span class="skill">Bahasa Arab & Inggris</span>
+            <span class="skill">SAP</span>
+            <span class="skill">Microsoft & Google Tools</span>
+
+        </div>
+
+    </section>
+
+
+    <!-- SERTIFIKASI -->
+    <section>
+
+        <h2>Pelatihan & Sertifikasi</h2>
+
+        <ul>
+
+            <li>Kursus Mahir Tingkat Dasar (KMD) Pramuka</li>
+
+            <li>Islamic Wear Exhibition</li>
+
+            <li>Safe From Harm Kwarnas</li>
+
+        </ul>
+
+    </section>
+
+
+    <footer>
+        © 2026 Rizkia Putri Handayani Rabika
+    </footer>
+
+</div>
 
 </body>
 </html>
